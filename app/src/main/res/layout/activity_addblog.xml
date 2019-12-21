@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        style="@style/TextandLayout"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD YOUR COMMENTS "
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/colorAccent"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextandLayout"
+        android:id="@+id/addblogtopic"
+        android:padding="30dp"
+        android:hint="Enter your comment's topic"
+
+
+        />
+    <EditText
+        style="@style/TextandLayout"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addblogdescription"
+        android:hint="Enter your comment description"
+        android:padding="30dp"
+
+        />
+
+
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addfirstname"
+        style="@style/TextandLayout"
+        android:padding="30dp"
+        android:hint="Enter your name"
+        />
+
+
+    <Button
+        android:id="@+id/btnAddblogs"
+        style="@style/TextandLayout"
+        android:layout_marginTop="30dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD ITEM"/>
+
+
+
+
+
+</LinearLayout>
