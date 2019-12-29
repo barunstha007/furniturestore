@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Blog (Click on blog to see it properly)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        style="@style/TextandLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Comment topic"
+        android:id="@+id/blogtopic"
+        android:layout_toEndOf="@+id/imgview"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/imgview" />
+
+
+
+    <TextView
+        style="@style/TextandLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Comment Description"
+        android:id="@+id/blogdescription"
+        android:layout_toEndOf="@+id/imgview"
+        android:layout_below="@id/blogtopic"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/imgview" />
+
+
+    <TextView
+        style="@style/TextandLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Comment by"
+        android:id="@+id/blogby"
+        android:layout_toEndOf="@+id/imgview"
+        android:layout_below="@+id/blogdescription"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/imgview" />
+
+</RelativeLayout>
