@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Cart product (Click on image for more information)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:id="@+id/cartimgview"
+        android:layout_margin="10dp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        style="@style/TextandLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item's Name"
+        android:id="@+id/cartname"
+        android:layout_toEndOf="@+id/cartimgview"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/cartimgview" />
+
+
+
+    <TextView
+        style="@style/TextandLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item's Description"
+        android:id="@+id/cartdescription"
+        android:layout_toEndOf="@+id/cartimgview"
+        android:layout_below="@id/cartprice"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/cartimgview" />
+
+    <TextView
+        style="@style/TextandLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item's Quantity"
+        android:id="@+id/cartitemquantity"
+        android:layout_toEndOf="@+id/cartimgview"
+        android:layout_below="@id/cartdescription"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/cartimgview" />
+
+    <TextView
+        style="@style/TextandLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item's Price"
+        android:id="@+id/cartprice"
+        android:layout_toEndOf="@+id/cartimgview"
+        android:layout_below="@+id/cartname"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/cartimgview" />
+
+</LinearLayout>
