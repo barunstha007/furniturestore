@@ -9,7 +9,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class AboutusActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class AboutusActivity extends AppCompatActivity {
     Button btnlocation;
 
     @Override

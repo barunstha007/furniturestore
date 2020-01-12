@@ -8,7 +8,9 @@ import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class Cartdetailsactivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class Cartdetailsactivity extends AppCompatActivity {
     TextView cartname, cartdescription, cartprice, cartquantity;
     CircleImageView circleImageView;
 

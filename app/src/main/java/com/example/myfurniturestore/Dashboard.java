@@ -16,7 +16,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class Dashboard {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class Dashboard extends AppCompatActivity {
     private SensorManager sensorManager;
     private Sensor proximitySensor;
     private SensorEventListener proximitySensorListner;

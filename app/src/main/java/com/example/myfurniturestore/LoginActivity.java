@@ -10,13 +10,14 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.NotificationManagerCompat;
 
 import static android.content.Context.SENSOR_SERVICE;
 import static android.content.Context.VIBRATOR_SERVICE;
 import static androidx.core.content.ContextCompat.startActivity;
 
-public class LoginActivity {
+public class LoginActivity extends AppCompatActivity {
 
     SPshow(); public final static String TAG = "LoginActivity";
     private EditText etUsername, etPassword;

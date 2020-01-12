@@ -8,7 +8,9 @@ import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class BlogdetailsActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class BlogdetailsActivity extends AppCompatActivity {
     TextView topic, description, blogby;
 
     @Override

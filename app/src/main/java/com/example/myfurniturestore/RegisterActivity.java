@@ -12,7 +12,9 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
-public class RegisterActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class RegisterActivity extends AppCompatActivity {
 
     EditText firstname,lastname,username,password;
     ImageButton gotologin;
