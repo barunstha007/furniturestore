@@ -3,7 +3,7 @@ package com.example.myfurniturestore.interfaces;
 import java.util.List;
 
 public interface ItemInterface {
-    @POST("groceries")
+    @POST("furnitures")
     Call<Void> addItem(@Body Item item);
 
 //    @FormUrlEncoded
@@ -14,7 +14,7 @@ public interface ItemInterface {
     @POST("upload")
     Call<ImageResponse> uploadImage(@Part MultipartBody.Part img);
 
-    @GET("/groceries")
+    @GET("/furnitures")
     Call<List<Item>> getAllItems();
 
 
